@@ -1,0 +1,42 @@
+h1 {
+  font-size: 200%;
+  text-align: center;
+  color: black;
+}
+
+button {
+    padding: 5px 20px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ input {
+   width: 80%;
+   padding: 5px;
+ }
+
+@keyframes ina {
+  5%{color: #ffb4e5;}
+   25%{coloe:#f6abab}
+   50%{color: #dda6a6;}
+   100%{color: #d091ba;}
+}
+
+button:hover {
+    animation-name: ina ;
+animation-duration: 10s;
+  
+@keyframes ani {
+   5%{color: #dab894;}
+   25%{coloe:#a7bed3}
+   50%{color: #b8d8be;}
+   100%{color: #f1cbff;}
+}
+
+ h1:hover {
+      animation-name: ani;
+  animation-duration: 10s;
+
+}
